@@ -1,0 +1,17 @@
+name: cis-3715
+
+channels:
+  - apple
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+
+  - pip:
+      - matplotlib
+      - pandas
+      - numpy
+      - jinja2
+      - scikit-learn
